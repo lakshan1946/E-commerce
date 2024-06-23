@@ -1,0 +1,128 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  gap: 30px;
+  width: 80%;
+  height: 40vh;
+  margin: 80px auto;
+}
+.newsletter h1 {
+  font-size: 45px;
+  color: #454545;
+  font-weight: 600;
+}
+.newsletter p {
+  color: #454545;
+  font-size: 17px;
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 600px;
+  height: 55px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+}
+.email input {
+  padding-left: 25px;
+  border: none;
+  outline: none;
+}
+.email button {
+  color: white;
+  background: black;
+  border-radius: 50px;
+  height: 55px;
+  width: 150px;
+}
+
+@media (max-width: 1280px) {
+  .newsletter {
+    height: 30vh;
+    margin: 50px auto;
+  }
+  .newsletter h1 {
+    font-size: 35px;
+  }
+  .newsletter p {
+    font-size: 15px;
+  }
+  .email {
+    width: 500px;
+    height: 45px;
+  }
+  .email input {
+    width: 400px;
+  }
+  .email button {
+    width: 100px;
+    height: 45px;
+  }
+}
+@media (max-width: 1024px) {
+  .newsletter h1 {
+    font-size: 30px;
+  }
+  .newsletter p {
+    font-size: 13px;
+  }
+  .email {
+    width: 450px;
+    height: 40px;
+  }
+  .email input {
+    width: 350px;
+  }
+  .email button {
+    width: 75px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .newsletter h1 {
+    font-size: 20px;
+  }
+  .newsletter p {
+    font-size: 10px;
+  }
+  .email {
+    width: 325px;
+    height: 30px;
+  }
+  .email input {
+    width: 300px;
+    font-size: 9px;
+  }
+  .email button {
+    width: 75px;
+    height: 30px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 500px) {
+  .newsletter h1 {
+    font-size: 15px;
+  }
+  .newsletter p {
+    font-size: 8px;
+  }
+  .email {
+    width: 220px;
+    height: 28px;
+  }
+  .email input {
+    width: 300px;
+    font-size: 8px;
+  }
+  .email button {
+    width: 75px;
+    height: 28px;
+    font-size: 8px;
+  }
+}

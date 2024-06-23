@@ -1,0 +1,285 @@
+.cartitems {
+  margin: 80px 120px;
+}
+.cartitems hr {
+  height: 2px;
+  background: #e2e2e2;
+  border: 0;
+}
+.ci-format-main {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0;
+  color: #454545;
+  font-size: 16px;
+  font-weight: 600;
+}
+.ci-format {
+  font-size: 15px;
+  font-weight: normal;
+}
+.ci-product-icon {
+  width: 50px;
+}
+.ci-remove-icon {
+  width: 15px;
+  cursor: pointer;
+}
+.ci-format button {
+  background: #fff;
+  width: 64px;
+  height: 50px;
+  border: 2px solid #ebebeb;
+}
+.ci-down {
+  display: flex;
+  margin: 100px 0;
+}
+.ci-totals {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  gap: 30px;
+}
+.ci-totals h1 {
+  font-size: 26px;
+}
+.ci-total-item,
+.ci-shipping,
+.ci-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.ci-totals button {
+  background: #ff5a5a;
+  width: 220px;
+  color: #fff;
+  border: 0;
+  padding: 15px 0;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+.ci-promo {
+  flex: 1;
+}
+.ci-promo p {
+  color: #555;
+}
+.ci-promobox {
+  width: 500px;
+  margin-top: 15px;
+  padding-left: 20px;
+  height: 58px;
+  background: #eaeaea;
+}
+.ci-promobox input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 330px;
+  height: 50px;
+}
+.ci-promobox button {
+  width: 166px;
+  height: 58px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 1280px) {
+  .cartitems {
+    margin: 50px 100px;
+  }
+  .ci-format-main {
+    gap: 50px;
+  }
+  .ci-format {
+    font-size: 14px;
+  }
+  .ci-product-icon {
+    width: 40px;
+  }
+  .ci-remove-icon {
+    width: 12px;
+  }
+  .ci-format button {
+    width: 60px;
+    height: 45px;
+  }
+  .ci-down {
+    margin: 50px 0;
+  }
+  .ci-totals {
+    margin-right: 100px;
+  }
+  .ci-totals h1 {
+    font-size: 24px;
+  }
+  .ci-total-item,
+  .ci-shipping,
+  .ci-total {
+    padding: 10px 0;
+  }
+  .ci-totals button {
+    width: 200px;
+    padding: 12px 0;
+    font-size: 12px;
+  }
+  .ci-promobox {
+    width: 400px;
+    height: 50px;
+  }
+  .ci-promobox input {
+    font-size: 14px;
+    width: 250px;
+    height: 45px;
+  }
+  .ci-promobox button {
+    width: 145px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  .cartitems {
+    margin: 50px 50px;
+  }
+  .ci-format-main {
+    gap: 50px;
+  }
+  .ci-format {
+    font-size: 13px;
+  }
+  .ci-product-icon {
+    width: 35px;
+  }
+  .ci-remove-icon {
+    width: 10px;
+  }
+  .ci-format button {
+    width: 55px;
+    height: 40px;
+  }
+  .ci-down {
+    margin: 50px 0;
+  }
+  .ci-totals {
+    margin-right: 50px;
+  }
+  .ci-totals h1 {
+    font-size: 22px;
+  }
+  .ci-total-item,
+  .ci-shipping,
+  .ci-total {
+    padding: 8px 0;
+  }
+  .ci-totals button {
+    width: 180px;
+    padding: 10px 0;
+    font-size: 11px;
+  }
+  .ci-promobox {
+    width: 350px;
+    height: 45px;
+  }
+  .ci-promobox input {
+    font-size: 12px;
+    width: 230px;
+    height: 40px;
+  }
+  .ci-promobox button {
+    width: 115px;
+    height: 45px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .cartitems {
+    margin: 50px 30px;
+  }
+  .ci-format-main {
+    grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 20px;
+    font-size: 13px;
+  }
+  .ci-format {
+    font-size: 12px;
+  }
+  .ci-product-icon {
+    width: 30px;
+  }
+  .ci-remove-icon {
+    width: 8px;
+  }
+  .ci-format button {
+    width: 50px;
+    height: 35px;
+  }
+  .ci-down {
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .ci-totals {
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  .ci-totals h1 {
+    font-size: 20px;
+  }
+  .ci-total-item,
+  .ci-shipping,
+  .ci-total {
+    padding: 6px 0;
+  }
+  .ci-totals button {
+    width: 160px;
+    padding: 8px 0;
+    font-size: 10px;
+  }
+  .ci-promobox {
+    width: 300px;
+    height: 40px;
+  }
+  .ci-promobox input {
+    font-size: 10px;
+    width: 200px;
+    height: 35px;
+  }
+  .ci-promobox button {
+    width: 95px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .ci-format-main {
+    display: none;
+    grid-template-columns: 0.5fr 3fr 0.05fr;
+    gap: 10px;
+  }
+  .ci-format {
+    display: grid;
+  }
+  .ci-promobox {
+    width: 250px;
+    height: 40px;
+  }
+  .ci-promobox input {
+    font-size: 10px;
+    width: 160px;
+    height: 35px;
+  }
+  .ci-promobox button {
+    width: 85px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
