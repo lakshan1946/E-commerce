@@ -7,14 +7,14 @@ const Hero = () => {
       <div className="hero-left">
         <h2>NEW ARRIVALS ONLY</h2>
         <div>
-          <div class="hero-hand-icon">
+          <div className="hero-hand-icon">
             <p>new</p>
             <img src={assets.hand_icon} alt="" />
           </div>
           <p>collections </p>
           <p>for everyone</p>
         </div>
-        <div class="hero-latest-btn">
+        <div className="hero-latest-btn">
           <div>Latest collection</div>
           <img src={assets.arrow} alt="" />
         </div>

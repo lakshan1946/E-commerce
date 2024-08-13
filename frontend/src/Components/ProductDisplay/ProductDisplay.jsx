@@ -5,22 +5,23 @@ import { ShopContext } from "../../Context/ShopContext";
 
 const ProductDisplay = ({ product }) => {
   const { addToCart } = useContext(ShopContext);
+  const { img_url } = useContext(ShopContext);
   return (
     <div className="productdisplay">
-      <div class="pd-left">
-        <div class="pd-image-list">
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
+      <div className="pd-left">
+        <div className="pd-image-list">
+          <img src={`${img_url}` + product.image} alt="" />
+          <img src={`${img_url}` + product.image} alt="" />
+          <img src={`${img_url}` + product.image} alt="" />
+          <img src={`${img_url}` + product.image} alt="" />
         </div>
-        <div class="pd-image">
-          <img src={product.image} alt="" />
+        <div className="pd-image">
+          <img src={`${img_url}` + product.image} alt="" />
         </div>
       </div>
-      <div class="pd-right">
+      <div className="pd-right">
         <h1>{product.name}</h1>
-        <div class="star">
+        <div className="star">
           <img src={assets.star_icon} alt="" />
           <img src={assets.star_icon} alt="" />
           <img src={assets.star_icon} alt="" />
@@ -28,9 +29,9 @@ const ProductDisplay = ({ product }) => {
           <img src={assets.star_dull_icon} alt="" />
           <p>(122)</p>
         </div>
-        <div class="pd-price">
-          <div class="pd-price-old">${product.old_price}</div>
-          <div class="pd-price-new">${product.new_price}</div>
+        <div nonce="pd-price">
+          <div className="pd-price-old">${product.old_price}</div>
+          <div className="pd-price-new">${product.new_price}</div>
         </div>
         <p className="pd-description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
@@ -38,7 +39,7 @@ const ProductDisplay = ({ product }) => {
           iste, at nam minima perferendis, illo incidunt, doloribus deleniti?
           Dicta, aspernatur corrupti.
         </p>
-        <div class="pd-sizes">
+        <div className="pd-sizes">
           <h3>Select Size</h3>
           <div className="pd-size">
             <div>S</div>
@@ -51,7 +52,7 @@ const ProductDisplay = ({ product }) => {
         <button
           className="cart"
           onClick={() => {
-            addToCart(product.id);
+            addToCart(product._id);
           }}
         >
           ADD TO CART

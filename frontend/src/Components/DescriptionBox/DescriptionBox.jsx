@@ -4,11 +4,11 @@ import "./DescriptionBox.css";
 const DescriptionBox = () => {
   return (
     <div className="descriptionbox">
-      <div class="db-navigator">
-        <div class="db-nav-box">Description</div>
-        <div class="db-nav-box fade">Review (122)</div>
+      <div className="db-navigator">
+        <div className="db-nav-box">Description</div>
+        <div className="db-nav-box fade">Review (122)</div>
       </div>
-      <div class="db-description">
+      <div className="db-description">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
           atque dolorem voluptate autem, perspiciatis eveniet, ipsa id nisi

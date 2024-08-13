@@ -10,6 +10,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Footer from "./Components/Footer/Footer";
 import { assets } from "./Components/Assests/assests";
+import PlaceOrder from "./Pages/PlaceOrder";
+import Verify from "./Pages/Verify";
+import MyOrders from "./Pages/MyOrders";
 
 function App() {
   return (
@@ -31,11 +34,12 @@ function App() {
           path="/kids"
           element={<ShopCategory banner={assets.banner_kids} category="kid" />}
         />
-        <Route path="/product" element={<Product />}>
-          <Route path=":productId" element={<Product />} />
-        </Route>
+        <Route path="/product/:productId" element={<Product />}></Route>
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<LoginSignup />} />
+        <Route path="/order" element={<PlaceOrder />} />
+        <Route path="/verify" element={<Verify />} />
+        <Route path="/myorders" element={<MyOrders />} />
       </Routes>
       <Footer />
     </BrowserRouter>

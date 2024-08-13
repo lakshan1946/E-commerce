@@ -1,18 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./NewCollections.css";
 import new_collections from "../Assests/new_collections";
 import Item from "../Item/Item";
+import { ShopContext } from "../../Context/ShopContext";
 
 const NewCollections = () => {
+  const {getNewCollection}= useContext(ShopContext)
+  console.log(getNewCollection)
   return (
     <div className="new-collections">
       <h1> NEW COLLECTIONS</h1>
       <hr />
       <div className="collections">
-        {new_collections.map((item, index) => {
+        {getNewCollection().map((item, index) => {
           return (
             <Item
-              index={index}
+              key={index}
               id={item.id}
               name={item.name}
               image={item.image}

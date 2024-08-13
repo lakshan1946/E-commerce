@@ -7,11 +7,15 @@ import DescriptionBox from "../Components/DescriptionBox/DescriptionBox";
 import RelatedProduct from "../Components/RelatedPRoducts/RelatedProduct";
 
 const Product = () => {
-  const { all_product } = useContext(ShopContext);
+  const  {list}  = useContext(ShopContext)
   const { productId } = useParams();
-  const product = all_product.find(
-    (product) => product.id === Number(productId)
-  );
+
+  const product = list.find((e) => e._id === productId);
+  if (!product) {
+    // You can return a loading indicator or some placeholder here
+    return <div>Loading...</div>;
+  }
+
   return (
     <div>
       <Breadcrum product={product} />

@@ -1,21 +1,26 @@
 import React, { useContext, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import { assets } from "../Assests/assests";
 import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("");
-  const { getTotalCartItems } = useContext(ShopContext);
+  const { getTotalCartItems, token, setToken } = useContext(ShopContext);
   const menuref = useRef();
+  const navigate = useNavigate();
 
   const dropdown_toggle = (e) => {
     menuref.current.classList.toggle("nav-menu-visible");
     e.target.classList.toggle("open");
   };
+  const logout = () => {
+    localStorage.removeItem("token");
+    setToken("");
+  };
   return (
     <div className="navbar">
-      <div class="navbar-logo">
+      <div className="navbar-logo">
         <img src={assets.logo} alt="" />
         <p> SHOPPER</p>
       </div>
@@ -25,7 +30,7 @@ const Navbar = () => {
         src={assets.dropdown_icon}
         alt=""
       />
-      <ul ref={menuref} class="nav-menu">
+      <ul ref={menuref} className="nav-menu">
         <li onClick={() => setMenu("shop")}>
           <Link style={{ textDecoration: "none", color: "#626262" }} to="/">
             Shop
@@ -54,15 +59,36 @@ const Navbar = () => {
           {menu === "kids" && <hr />}
         </li>
       </ul>
-      <div class="nav-login-cart">
-        <Link style={{ textDecoration: "none" }} to="/login">
-          <button>Login</button>
-        </Link>
+      <div className="nav-login-cart">
+        {!token ? (
+          <Link style={{ textDecoration: "none" }} to="/login">
+            <button>Login</button>
+          </Link>
+        ) : (
+          <div className="nav-profile">
+            <img src={assets.profile_icon} alt="" />
+            <div className="nav-profile-dropdown">
+              <button
+                onClick={() => {
+                  navigate("/myorders");
+                }}
+                className="nav-btn"
+              >
+                Oders
+              </button>
+              <hr />
+              <button onClick={logout} className="nav-btn">
+                Log out
+              </button>
+            </div>
+          </div>
+        )}
+
         <Link to="/cart">
           <img src={assets.cart_icon} alt="" />
         </Link>
 
-        <div class="nav-cart-count">{getTotalCartItems()}</div>
+        <div className="nav-cart-count">{getTotalCartItems()}</div>
       </div>
     </div>
   );

@@ -16,6 +16,8 @@ import breadcrum_arrow from "./breadcrum_arrow.png";
 import star_dull_icon from "./star_dull_icon.png";
 import star_icon from "./star_icon.png";
 import remove_icon from "./cart_cross_icon.png";
+import profile_icon from "./profile_icon.png";
+import parcel_icon from "./parcel_icon.png";
 
 export const assets = {
   logo,
@@ -36,4 +38,6 @@ export const assets = {
   star_dull_icon,
   star_icon,
   remove_icon,
+  profile_icon,
+  parcel_icon,
 };

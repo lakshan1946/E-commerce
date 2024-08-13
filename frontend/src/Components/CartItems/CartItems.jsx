@@ -2,14 +2,23 @@ import React, { useContext } from "react";
 import "./CartItems.css";
 import { ShopContext } from "../../Context/ShopContext";
 import { assets } from "../Assests/assests";
+import { useNavigate } from "react-router-dom";
 
 const CartItems = () => {
-  const { all_product, cartItems, removeFromCart, getTotalCartAmount } =
-    useContext(ShopContext);
+  const {
+    all_product,
+    cartItems,
+    removeFromCart,
+    getTotalCartAmount,
+    list,
+    img_url,
+  } = useContext(ShopContext);
+
+  const navigate = useNavigate();
 
   return (
     <div className="cartitems">
-      <div class="ci-format-main">
+      <div className="ci-format-main">
         <p>Products</p>
         <p>Title</p>
         <p>Price</p>
@@ -18,20 +27,24 @@ const CartItems = () => {
         <p>Remove</p>
       </div>
       <hr />
-      {all_product.map((item) => {
-        if (cartItems[item.id] > 0) {
+      {list.map((item, index) => {
+        if (cartItems[item._id] > 0) {
           return (
-            <div>
-              <div class="ci-format ci-format-main">
-                <img src={item.image} alt="" className="ci-product-icon" />
+            <div key={index}>
+              <div className="ci-format ci-format-main">
+                <img
+                  src={img_url + item.image}
+                  alt=""
+                  className="ci-product-icon"
+                />
                 <p>{item.name}</p>
                 <p>${item.new_price}</p>
-                <button>{cartItems[item.id]}</button>
-                <p>${item.new_price * cartItems[item.id]}</p>
+                <button>{cartItems[item._id]}</button>
+                <p>${item.new_price * cartItems[item._id]}</p>
                 <img
                   className="ci-remove-icon"
                   onClick={() => {
-                    removeFromCart(item.id);
+                    removeFromCart(item._id);
                   }}
                   src={assets.remove_icon}
                   alt=""
@@ -43,28 +56,28 @@ const CartItems = () => {
         }
         return null;
       })}
-      <div class="ci-down">
-        <div class="ci-totals">
+      <div className="ci-down">
+        <div className="ci-totals">
           <h1>Cart Totals</h1>
           <div className="ci-total-items">
-            <div class="ci-total-item">
+            <div className="ci-total-item">
               <p>Subtotal</p>
               <p>${getTotalCartAmount()}</p>
             </div>
             <hr />
-            <div class="ci-shipping">
+            <div className="ci-shipping">
               <p>Shipping free</p>
               <p>free</p>
             </div>
             <hr />
-            <div class="ci-total">
+            <div className="ci-total">
               <h3>Total</h3>
               <h3>${getTotalCartAmount()}</h3>
             </div>
           </div>
-          <button>PROCEED TO CHECKOUT</button>
+          <button onClick={()=>{navigate("/order")}}>PROCEED TO CHECKOUT</button>
         </div>
-        <div class="ci-promo">
+        <div className="ci-promo">
           <p>if you have a promo code,Enter it here</p>
           <div className="ci-promobox">
             <input type="text" placeholder="promo code" />

@@ -1,4 +1,5 @@
 .hero {
+  margin-top: 66.4px;
   height: 90vh;
   display: flex;
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);

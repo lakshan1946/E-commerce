@@ -8,11 +8,11 @@ const RelatedProduct = () => {
     <div className="relatedproducts">
       <h1>Related Products</h1>
       <hr />
-      <div class="rp-item">
+      <div className="rp-item">
         {data_product.map((item, index) => {
           return (
             <Item
-              index
+              key={index}
               id={item.id}
               name={item.name}
               image={item.image}
