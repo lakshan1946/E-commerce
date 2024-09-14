@@ -20,10 +20,13 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <div className="navbar-logo">
-        <img src={assets.logo} alt="" />
-        <p> SHOPPER</p>
-      </div>
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <div className="navbar-logo">
+          <img src={assets.logo} alt="" />
+          <p> SHOPPER</p>
+        </div>
+      </Link>
+
       <img
         className="nav-dropdown"
         onClick={dropdown_toggle}
@@ -60,6 +63,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
+        <img src={assets.search_icon} className="search" />
         {!token ? (
           <Link style={{ textDecoration: "none" }} to="/login">
             <button>Login</button>

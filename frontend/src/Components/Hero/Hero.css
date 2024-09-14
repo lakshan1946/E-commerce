@@ -1,37 +1,67 @@
 .hero {
-  margin-top: 66.4px;
-  height: 90vh;
-  display: flex;
-  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
-.hero-left {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  padding-left: 180px;
-  line-height: 1.1;
-}
-.hero-left h2 {
-  color: #090909;
-  font-size: 20px;
-  font-weight: 600;
-}
-.hero-left p {
-  color: #171717;
-  font-size: 75px;
-  font-weight: 700;
-}
-.hero-hand-icon {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.slider{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top:0
 }
 
-.hero-hand-icon img {
-  width: 90px;
+#slideImg{
+  width: 100%;
+  object-fit: cover;
+  animation: zoom 3s linear infinite;
 }
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.3);
+  }
+  15% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+.overlay{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+  position: absolute;
+  top:0
+
+}
+
+.hero-left {
+  position: relative;
+  top: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  line-height: 1.1;
+}
+
+.hero-left p {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+.hero-left h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+
 .hero-latest-btn {
   display: flex;
   justify-content: center;
@@ -50,15 +80,6 @@
   width: 18px;
 }
 
-.hero-right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.hero-right img {
-  width: 450px;
-}
 
 @media (max-width: 1280px) {
   .hero {

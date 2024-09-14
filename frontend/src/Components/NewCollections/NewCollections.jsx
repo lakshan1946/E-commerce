@@ -5,8 +5,8 @@ import Item from "../Item/Item";
 import { ShopContext } from "../../Context/ShopContext";
 
 const NewCollections = () => {
-  const {getNewCollection}= useContext(ShopContext)
-  console.log(getNewCollection)
+  const { getNewCollection, list } = useContext(ShopContext);
+  console.log(getNewCollection);
   return (
     <div className="new-collections">
       <h1> NEW COLLECTIONS</h1>

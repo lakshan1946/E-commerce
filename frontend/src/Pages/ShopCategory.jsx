@@ -6,15 +6,20 @@ import { assets } from "../Components/Assests/assests";
 import Item from "../Components/Item/Item";
 
 const ShopCategory = (props) => {
-  const { all_product, list } = useContext(ShopContext);
-  // console.log("list is " + list);
+  const { list } = useContext(ShopContext);
+
+  //get category count
+  const categoryCount = list.filter(
+    (item) => item.category === props.category
+  ).length;
 
   return (
     <div className="Shop-category">
       <img className="banner" src={props.banner} alt="" />
       <div className="shopcategory-indexSort">
         <p>
-          <span>Showing 1-12</span> out of 36 products
+          <span>Showing 1-{categoryCount} </span> out of {categoryCount}{" "}
+          products
         </p>
         <div className="shopcategory-sort">
           Sort by <img src={assets.dropdown_icon} alt="" />

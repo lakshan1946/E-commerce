@@ -1,13 +1,13 @@
 .loginsignup {
   width: 100%;
   background-color: #fce3fe;
-  height: 150vh;
   padding-top: 80px;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 .loginsignup-container {
   width: 450px;
-  height: 600px;
+  /* height: 550px; */
   background: white;
   margin: auto;
   padding: 20px 60px;
@@ -52,12 +52,6 @@
   color: #ff4141;
   cursor: pointer;
 }
-.loginsignup-agree {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  color: #5c5c5c;
-}
 .signup-active {
   display: none;
 }
@@ -66,12 +60,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   font-size: 14px;
 }
 .remember-me {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.remember-me input{
+  justify-content: center;
 }
 .login-with {
   display: flex;

@@ -18,6 +18,12 @@ import star_icon from "./star_icon.png";
 import remove_icon from "./cart_cross_icon.png";
 import profile_icon from "./profile_icon.png";
 import parcel_icon from "./parcel_icon.png";
+import hero_1 from "./hero-1.jpg";
+import hero_2 from "./hero-2.jpg";
+import hero_3 from "./hero-3.jpg";
+import hero_4 from "./hero-4.jpg";
+import hero_5 from "./hero-5.jpg";
+import search_icon from "./search_icon.png";
 
 export const assets = {
   logo,
@@ -40,4 +46,10 @@ export const assets = {
   remove_icon,
   profile_icon,
   parcel_icon,
+  hero_1,
+  hero_2,
+  hero_3,
+  hero_4,
+  hero_5,
+  search_icon,
 };

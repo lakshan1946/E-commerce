@@ -5,14 +5,8 @@ import { assets } from "../Assests/assests";
 import { useNavigate } from "react-router-dom";
 
 const CartItems = () => {
-  const {
-    all_product,
-    cartItems,
-    removeFromCart,
-    getTotalCartAmount,
-    list,
-    img_url,
-  } = useContext(ShopContext);
+  const { cartItems, removeFromCart, getTotalCartAmount, list, img_url } =
+    useContext(ShopContext);
 
   const navigate = useNavigate();
 
@@ -75,7 +69,13 @@ const CartItems = () => {
               <h3>${getTotalCartAmount()}</h3>
             </div>
           </div>
-          <button onClick={()=>{navigate("/order")}}>PROCEED TO CHECKOUT</button>
+          <button
+            onClick={() => {
+              navigate("/order");
+            }}
+          >
+            PROCEED TO CHECKOUT
+          </button>
         </div>
         <div className="ci-promo">
           <p>if you have a promo code,Enter it here</p>

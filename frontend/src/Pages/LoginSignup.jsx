@@ -101,10 +101,6 @@ const LoginSignup = () => {
               <span onClick={() => setLogin("login")}>Login here</span>
             </p>
           )}
-          <div class="loginsignup-agree">
-            <input required type="checkbox" />
-            <p>By continuing, i agree to the terms of use & privacy policy.</p>
-          </div>
         </div>
       </form>
     </div>
