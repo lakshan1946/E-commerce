@@ -7,8 +7,10 @@ export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
   const [list, setList] = useState([]); // State to store the list of products
-  const [cartItems, setCartItems] = useState({});   // State to store items in the cart
+  const [cartItems, setCartItems] = useState({}); // State to store items in the cart
   const [token, setToken] = useState(""); // State to store the user's token
+  const [search, setSearch] = useState(""); // State to store the search query
+  const [showSearch, setShowSearch] = useState(false); // State to store the search visibility
 
   // API endpoints
   const url = "http://localhost:4000";
@@ -93,7 +95,7 @@ const ShopContextProvider = (props) => {
   const getNewCollection = () => {
     let newCollection = list.slice(1).slice(-8);
     return newCollection;
-  }
+  };
 
   //useEffect to load data on component mount
   useEffect(() => {
@@ -122,7 +124,11 @@ const ShopContextProvider = (props) => {
     token,
     setToken,
     url,
-    getNewCollection
+    getNewCollection,
+    search,
+    setSearch,
+    showSearch,
+    setShowSearch,
   };
 
   // Provide the context value to the children components

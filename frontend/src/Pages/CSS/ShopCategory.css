@@ -19,6 +19,11 @@
   border-radius: 40px;
   border: 1px solid #888;
 }
+.shopcategory-sort select{
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
 
 .shopcategory-products {
   display: grid;

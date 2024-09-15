@@ -6,7 +6,8 @@ import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("");
-  const { getTotalCartItems, token, setToken } = useContext(ShopContext);
+  const { getTotalCartItems, token, setToken, setShowSearch } =
+    useContext(ShopContext);
   const menuref = useRef();
   const navigate = useNavigate();
 
@@ -63,7 +64,11 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <img src={assets.search_icon} className="search" />
+        <img
+          onClick={() => setShowSearch(true)}
+          src={assets.search_icon}
+          className="search"
+        />
         {!token ? (
           <Link style={{ textDecoration: "none" }} to="/login">
             <button>Login</button>

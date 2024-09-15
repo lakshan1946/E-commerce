@@ -13,10 +13,11 @@ const NewCollections = () => {
       <hr />
       <div className="collections">
         {getNewCollection().map((item, index) => {
+          console.log(item._id);
           return (
             <Item
               key={index}
-              id={item.id}
+              id={item._id}
               name={item.name}
               image={item.image}
               new_price={item.new_price}

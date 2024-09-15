@@ -17,7 +17,7 @@ export const Popular = () => {
             return (
               <Item
                 key={index}
-                id={item.id}
+                id={item._id}
                 image={item.image}
                 name={item.name}
                 new_price={item.new_price}

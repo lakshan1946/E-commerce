@@ -24,6 +24,7 @@ import hero_3 from "./hero-3.jpg";
 import hero_4 from "./hero-4.jpg";
 import hero_5 from "./hero-5.jpg";
 import search_icon from "./search_icon.png";
+import close from "./close.png";
 
 export const assets = {
   logo,
@@ -52,4 +53,5 @@ export const assets = {
   hero_4,
   hero_5,
   search_icon,
+  close,
 };
