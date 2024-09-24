@@ -1,4 +1,4 @@
-# Clothing E-Commerce Website
+![Screenshot 2024-09-24 111445](https://github.com/user-attachments/assets/62330625-0119-4383-be48-2a58a41a667a)# Clothing E-Commerce Website
 
 ## Description
 
@@ -146,11 +146,13 @@ E-COMMERCE/
 ## Screenshots and Video
 
 ### Screenshots
-![Homepage](https://github.com/user-attachments/assets/bbe1e72e-de99-426a-873a-78b51bbc3ee5)
+(https://github.com/user-attachments/assets/bbe1e72e-de99-426a-873a-78b51bbc3ee5)
 
-![Product Page](path/to/productpage-screenshot.png)!
-
-![Admin Panel](path/to/adminpanel-screenshot.png)
+![Screenshot 2024-09-24 111445](https://github.com/user-attachments/assets/66677f3c-10c4-443b-86fc-e0eb43888a82)
+![Screenshot 2024-09-24 111456](https://github.com/user-attachments/assets/920dc7b1-d8c3-42c5-b706-972891ec48e2)
+![Screenshot 2024-09-24 111508](https://github.com/user-attachments/assets/b27f2c14-777c-46c0-a428-5c8a41599c3f)
+![Screenshot 2024-09-24 111558](https://github.com/user-attachments/assets/07a31c96-9089-400d-bf94-72efb13cca4e)
+![Screenshot 2024-09-24 111614](https://github.com/user-attachments/assets/23109467-25ca-4d69-b62e-b1c77dd1d93f)
 
 ### Video Demonstration
 You can watch the full video demonstration of the website here:
