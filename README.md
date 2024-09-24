@@ -11,7 +11,7 @@ This project is a full-stack, responsive clothing e-commerce website developed u
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Project Structure](#project-structure)
-6. [Screenshots and Video](#screenshots-and-video)
+6. [Screenshots](#screenshots-and-video)
 7. [Admin Panel](#admin-panel)
 8. [Contributing](#contributing)
 9. [Contact](#contact)
@@ -157,14 +157,6 @@ E-COMMERCE/
 ![Screenshot 2024-09-24 120902](https://github.com/user-attachments/assets/80496294-3055-457d-b8e2-f2dc5c850580)
 ![Screenshot 2024-09-24 120911](https://github.com/user-attachments/assets/20823c18-06c2-48ae-87f1-f1dc850c3ca4)
 ![Screenshot 2024-09-24 120920](https://github.com/user-attachments/assets/ae169f69-a9df-4e33-9437-dd5effc34b37)
-
-
-### Video Demonstration
-You can watch the full video demonstration of the website here:
-[Website Demo Video](https://www.youtube.com/watch?v=your-video-link)
-
-> **Note**: Replace the `path/to/` with!
- the actual path to your screenshot files in your project directory and update the `your-video-link` with your actual video link.
 
 ## Admin Panel
 
