@@ -154,9 +154,10 @@ E-COMMERCE/
 ![Screenshot 2024-09-24 111558](https://github.com/user-attachments/assets/07a31c96-9089-400d-bf94-72efb13cca4e)
 ![Screenshot 2024-09-24 111614](https://github.com/user-attachments/assets/23109467-25ca-4d69-b62e-b1c77dd1d93f)
 
-![Screenshot 2024-09-24 112247](https://github.com/user-attachments/assets/6270f487-36dd-4436-80c5-f989c746ab85)
-![Screenshot 2024-09-24 112254](https://github.com/user-attachments/assets/c87a3c2f-1d67-411b-a9ff-773c67602209)
-![Screenshot 2024-09-24 112301](https://github.com/user-attachments/assets/f7730608-c427-4294-95a3-5b059af4a596)
+![Screenshot 2024-09-24 120902](https://github.com/user-attachments/assets/80496294-3055-457d-b8e2-f2dc5c850580)
+![Screenshot 2024-09-24 120911](https://github.com/user-attachments/assets/20823c18-06c2-48ae-87f1-f1dc850c3ca4)
+![Screenshot 2024-09-24 120920](https://github.com/user-attachments/assets/ae169f69-a9df-4e33-9437-dd5effc34b37)
+
 
 ### Video Demonstration
 You can watch the full video demonstration of the website here:
