@@ -63,9 +63,8 @@ npm install
 ```
 Create a `.env` file in the backend directory and add the following environment variables:
 ```
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
+JWT_SECRET = "random#secret"
+STRIPE_SECRETE_KEY = "sk_test_51PSaBcRu1BVIKT9U9P2REkRn1lWST41Yr5qE5KtHayQNL1H24pjOYcnTSgGuhEQ4UFtX5MGKH3uPiBI65HSaMTD200NY75oiJW"
 ```
 Start the backend server:
 ```
@@ -76,7 +75,7 @@ npm start
 
 Navigate to the frontend directory:
 ```
-cd ../frontend
+cd frontend
 ```
 Install frontend dependencies:
 ```
@@ -100,20 +99,35 @@ Access the frontend at `http://localhost:3000`.
 ## Project Structure
 
 ```
-clothing-ecommerce/
+E-COMMERCE/
+├── admin/
+│   ├── public/
+│   ├── src/
+│   │   ├── Assets/
+│   │   ├── Components/
+│   │   │   ├── AddProduct/
+│   │   │   ├── ListProduct/
+│   │   │   ├── Navbar/
+│   │   │   ├── OrderList/
+│   │   │   ├── Sidebar/
+│   │   ├── Pages/
+│   │   │   ├── Admin.jsx
+│   │   ├── App.jsx
+│   │   └── main.jsx
 ├── backend/
+│   ├── config/
 │   ├── controllers/
+│   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── middleware/
-│   ├── config/
-│   └── server.js
+|   ├── upload
+│   └── index.js
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── redux/
+│   │   ├── Components/
+│   │   ├── Context/
+│   │   ├── Pages/
 │   │   ├── App.js
 │   │   └── index.js
 ├── README.md
