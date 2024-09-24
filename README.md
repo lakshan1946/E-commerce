@@ -11,9 +11,10 @@ This project is a full-stack, responsive clothing e-commerce website developed u
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Project Structure](#project-structure)
-6. [Admin Panel](#admin-panel)
-7. [Contributing](#contributing)
-8. [Contact](#contact)
+6. [Screenshots and Video](#screenshots-and-video)
+7. [Admin Panel](#admin-panel)
+8. [Contributing](#contributing)
+9. [Contact](#contact)
 
 ## Features
 
@@ -142,6 +143,19 @@ E-COMMERCE/
 └── .gitignore
 ```
 
+## Screenshots and Video
+
+### Screenshots
+![Home Page](path/to/homepage-screenshot.png)
+![Product Page](path/to/productpage-screenshot.png)
+![Admin Panel](path/to/adminpanel-screenshot.png)
+
+### Video Demonstration
+You can watch the full video demonstration of the website here:
+[Website Demo Video](https://www.youtube.com/watch?v=your-video-link)
+
+> **Note**: Replace the `path/to/` with the actual path to your screenshot files in your project directory and update the `your-video-link` with your actual video link.
+
 ## Admin Panel
 
 - **Add Products:** Add new products to the store.
@@ -161,4 +175,4 @@ If you would like to contribute to this project, please follow these steps:
 For any inquiries or feedback, feel free to reach out:
 
 - **Email:** lakshan.21@cse.mrt.ac.lk
-- **GitHub:** [your-username](https://github.com/your-username)
+- **GitHub:** https://github.com/lakshan1946
