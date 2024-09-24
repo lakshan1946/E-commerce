@@ -146,13 +146,17 @@ E-COMMERCE/
 ## Screenshots and Video
 
 ### Screenshots
-(https://github.com/user-attachments/assets/bbe1e72e-de99-426a-873a-78b51bbc3ee5)
 
+![Screenshot 2024-09-24 111434](https://github.com/user-attachments/assets/c8e0bd12-5074-4afc-9cbf-ad5a7e2c38ad)
 ![Screenshot 2024-09-24 111445](https://github.com/user-attachments/assets/66677f3c-10c4-443b-86fc-e0eb43888a82)
 ![Screenshot 2024-09-24 111456](https://github.com/user-attachments/assets/920dc7b1-d8c3-42c5-b706-972891ec48e2)
 ![Screenshot 2024-09-24 111508](https://github.com/user-attachments/assets/b27f2c14-777c-46c0-a428-5c8a41599c3f)
 ![Screenshot 2024-09-24 111558](https://github.com/user-attachments/assets/07a31c96-9089-400d-bf94-72efb13cca4e)
 ![Screenshot 2024-09-24 111614](https://github.com/user-attachments/assets/23109467-25ca-4d69-b62e-b1c77dd1d93f)
+
+![Screenshot 2024-09-24 112247](https://github.com/user-attachments/assets/6270f487-36dd-4436-80c5-f989c746ab85)
+![Screenshot 2024-09-24 112254](https://github.com/user-attachments/assets/c87a3c2f-1d67-411b-a9ff-773c67602209)
+![Screenshot 2024-09-24 112301](https://github.com/user-attachments/assets/f7730608-c427-4294-95a3-5b059af4a596)
 
 ### Video Demonstration
 You can watch the full video demonstration of the website here:
