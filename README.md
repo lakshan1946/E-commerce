@@ -151,7 +151,7 @@ E-COMMERCE/
 ![Screenshot 2024-09-24 111445](https://github.com/user-attachments/assets/66677f3c-10c4-443b-86fc-e0eb43888a82)
 ![Screenshot 2024-09-24 111456](https://github.com/user-attachments/assets/920dc7b1-d8c3-42c5-b706-972891ec48e2)
 ![Screenshot 2024-09-24 111508](https://github.com/user-attachments/assets/b27f2c14-777c-46c0-a428-5c8a41599c3f)
-![Screenshot 2024-09-24 111558](https://github.com/user-attachments/assets/07a31c96-9089-400d-bf94-72efb13cca4e)
+![Screenshot 2024-09-24 121257](https://github.com/user-attachments/assets/4f1fb170-5d05-429f-a945-4c4b92643749)
 ![Screenshot 2024-09-24 111614](https://github.com/user-attachments/assets/23109467-25ca-4d69-b62e-b1c77dd1d93f)
 
 ![Screenshot 2024-09-24 120902](https://github.com/user-attachments/assets/80496294-3055-457d-b8e2-f2dc5c850580)
