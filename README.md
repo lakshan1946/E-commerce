@@ -146,10 +146,10 @@ E-COMMERCE/
 ## Screenshots and Video
 
 ### Screenshots
-![Home Page](path/to/homepage-screenshot.png)
-![image](https://github.com/user-attachments/assets/7e604aa6-59d5-4596-82da-25453150df06)
+![Home Page]
+[Screenshot 2024-09-24 111434](https://github.com/user-attachments/assets/f8ef2ca8-85d3-4e5a-988a-8af060efdc32)
+![Product Page](path/to/productpage-screenshot.png)!
 
-![Product Page](path/to/productpage-screenshot.png)
 ![Admin Panel](path/to/adminpanel-screenshot.png)
 
 ### Video Demonstration
