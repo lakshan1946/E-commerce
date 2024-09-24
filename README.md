@@ -146,8 +146,8 @@ E-COMMERCE/
 ## Screenshots and Video
 
 ### Screenshots
-![Home Page]
-[Screenshot 2024-09-24 111434](https://github.com/user-attachments/assets/f8ef2ca8-85d3-4e5a-988a-8af060efdc32)
+![Homepage](https://github.com/user-attachments/assets/bbe1e72e-de99-426a-873a-78b51bbc3ee5)
+
 ![Product Page](path/to/productpage-screenshot.png)!
 
 ![Admin Panel](path/to/adminpanel-screenshot.png)
@@ -156,7 +156,8 @@ E-COMMERCE/
 You can watch the full video demonstration of the website here:
 [Website Demo Video](https://www.youtube.com/watch?v=your-video-link)
 
-> **Note**: Replace the `path/to/` with the actual path to your screenshot files in your project directory and update the `your-video-link` with your actual video link.
+> **Note**: Replace the `path/to/` with!
+ the actual path to your screenshot files in your project directory and update the `your-video-link` with your actual video link.
 
 ## Admin Panel
 
