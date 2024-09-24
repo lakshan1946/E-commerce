@@ -18,24 +18,22 @@ This project is a full-stack, responsive clothing e-commerce website developed u
 
 ## Features
 
-User Authentication: Login and register functionality using JWT.
-Product Categorization: Browse products by categories like men, women, and kids.
-Shopping Cart: Add items to the cart and manage them.
-Product Sorting: Sort items by price.
-Payment Gateway: Secure online payments using Stripe.
-Order Management: Users can view their order details and track delivery status.
-Admin Panel: Manage products, view and update order details, and modify delivery statuses.
+**User Authentication:** Login and register functionality using JWT.
+**Product Categorization:** Browse products by categories like men, women, and kids.
+**Shopping Cart:** Add items to the cart and manage them.
+**Product Sorting:** Sort items by price.
+**Payment Gateway:** Secure online payments using Stripe.
+**Order Management:** Users can view their order details and track delivery status.
+**Admin Panel:** Manage products, view and update order details, and modify delivery statuses.
 
 ## Technologies Used
 
-Frontend: React, HTML, CSS
-Backend: Node.js, Express.js
-Database: MongoDB Atlas
-Authentication: JSON Web Token (JWT)
-Payment Gateway: Stripe
-State Management: Redux
-UI/UX Design: Figma
-Tools: Git, GitHub, Visual Studio Code
+**Frontend:** React, HTML, CSS
+**Backend:** Node.js, Express.js
+**Database:** MongoDB Atlas
+**Authentication:** JSON Web Token (JWT)
+**Payment Gateway:** Stripe
+**Tools:** Git, GitHub, Visual Studio Code
 
 ## Installation
 
@@ -49,8 +47,8 @@ Stripe Account
 
 Clone the Repository
 
-git clone https://github.com/your-username/clothing-ecommerce.git
-cd clothing-ecommerce
+```git clone https://github.com/your-username/clothing-ecommerce.git```
+```cd clothing-ecommerce```
 
 Backend Setup
 Navigate to the backend directory:
