@@ -147,6 +147,8 @@ E-COMMERCE/
 
 ### Screenshots
 ![Home Page](path/to/homepage-screenshot.png)
+![image](https://github.com/user-attachments/assets/7e604aa6-59d5-4596-82da-25453150df06)
+
 ![Product Page](path/to/productpage-screenshot.png)
 ![Admin Panel](path/to/adminpanel-screenshot.png)
 
