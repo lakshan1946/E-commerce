@@ -11,10 +11,9 @@ This project is a full-stack, responsive clothing e-commerce website developed u
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Project Structure](#project-structure)
-6. [API Endpoints](#api-endpoints)
-7. [Admin Panel](#admin-panel)
-8. [Contributing](#contributing)
-9. [Contact](#contact)
+6. [Admin Panel](#admin-panel)
+7. [Contributing](#contributing)
+8. [Contact](#contact)
 
 ## Features
 
@@ -85,7 +84,23 @@ Start the frontend development server:
 ```
 npm start
 ```
+
+### Admin Panel Setup
+
+Navigate to the admin directory:
+```
+cd admin
+```
+Install admin dependencies:
+```
+npm install
+```
+Start the admin server:
+```
+npm run dev
+```
 Access the frontend at `http://localhost:3000`.
+Access the admin at `http://localhost:5173`.
 
 ## Usage
 
@@ -127,25 +142,6 @@ E-COMMERCE/
 └── .gitignore
 ```
 
-## API Endpoints
-
-### User Endpoints
-- `POST /api/auth/register` - Register a new user.
-- `POST /api/auth/login` - Login an existing user.
-
-### Product Endpoints
-- `GET /api/products` - Get all products.
-- `GET /api/products/:category` - Get products by category (men, women, kids).
-- `POST /api/products` - [Admin] Add a new product.
-- `PUT /api/products/:id` - [Admin] Update a product.
-- `DELETE /api/products/:id` - [Admin] Delete a product.
-
-### Order Endpoints
-- `POST /api/orders` - Create a new order.
-- `GET /api/orders/:userId` - Get all orders for a user.
-- `GET /api/orders` - [Admin] Get all orders.
-- `PUT /api/orders/:id` - [Admin] Update order delivery status.
-
 ## Admin Panel
 
 - **Add Products:** Add new products to the store.
@@ -164,5 +160,5 @@ If you would like to contribute to this project, please follow these steps:
 ## Contact
 For any inquiries or feedback, feel free to reach out:
 
-- **Email:** your-email@example.com
+- **Email:** lakshan.21@cse.mrt.ac.lk
 - **GitHub:** [your-username](https://github.com/your-username)
