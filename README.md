@@ -48,13 +48,14 @@ Stripe Account
 Clone the Repository
 
 ```
-[git clone https://github.com/your-username/clothing-ecommerce.git](https://github.com/lakshan1946/E-commerce.git)
+https://github.com/lakshan1946/E-commerce.git
 ```
 
 Backend Setup
 Navigate to the backend directory:
+```
 cd backend
-
+```
 Install backend dependencies:
 npm install
 Create a .env file in the backend directory and add the following environment variables:
