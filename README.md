@@ -1,4 +1,3 @@
-* [![Next][Next.js]][Next-url]
 # Clothing E-Commerce Website
 
 ## Description
