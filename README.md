@@ -47,8 +47,10 @@ Stripe Account
 
 Clone the Repository
 
-```git clone https://github.com/your-username/clothing-ecommerce.git```
-```cd clothing-ecommerce```
+```
+git clone https://github.com/your-username/clothing-ecommerce.git
+cd clothing-ecommerce
+```
 
 Backend Setup
 Navigate to the backend directory:
