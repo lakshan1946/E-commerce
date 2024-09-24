@@ -105,13 +105,7 @@ E-COMMERCE/
 │   ├── src/
 │   │   ├── Assets/
 │   │   ├── Components/
-│   │   │   ├── AddProduct/
-│   │   │   ├── ListProduct/
-│   │   │   ├── Navbar/
-│   │   │   ├── OrderList/
-│   │   │   ├── Sidebar/
 │   │   ├── Pages/
-│   │   │   ├── Admin.jsx
 │   │   ├── App.jsx
 │   │   └── main.jsx
 ├── backend/
@@ -125,7 +119,6 @@ E-COMMERCE/
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── Components/
 │   │   ├── Context/
 │   │   ├── Pages/
 │   │   ├── App.js
