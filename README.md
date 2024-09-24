@@ -26,7 +26,7 @@ Payment Gateway: Secure online payments using Stripe.
 Order Management: Users can view their order details and track delivery status.
 Admin Panel: Manage products, view and update order details, and modify delivery statuses.
 
-Technologies Used
+## Technologies Used
 
 Frontend: React, HTML, CSS
 Backend: Node.js, Express.js
@@ -37,7 +37,7 @@ State Management: Redux
 UI/UX Design: Figma
 Tools: Git, GitHub, Visual Studio Code
 
-Installation
+## Installation
 
 Prerequisites
 
@@ -87,7 +87,7 @@ Copy code
 npm start
 Access the frontend at http://localhost:3000.
 
-Usage
+## Usage
 
 User Registration and Login: Register as a new user or log in with an existing account.
 Browse Products: Navigate through different categories like men, women, and kids.
@@ -96,7 +96,7 @@ Checkout: After adding items to the cart, proceed to checkout and complete the p
 Order Management: View your order details and track delivery status.
 Admin Panel: Admin users can log in to the admin panel to add new products, view orders, and update delivery statuses.
 
-Project Structure
+## Project Structure
 
 clothing-ecommerce/
 ├── backend/
@@ -117,7 +117,7 @@ clothing-ecommerce/
 ├── README.md
 └── .gitignore
 
-API Endpoints
+## API Endpoints
 
 User Endpoints
 POST /api/auth/register - Register a new user.
@@ -136,12 +136,13 @@ GET /api/orders/:userId - Get all orders for a user.
 GET /api/orders - [Admin] Get all orders.
 PUT /api/orders/:id - [Admin] Update order delivery status.
 
-Admin Panel
+## Admin Panel
 
 Add Products: Add new products to the store.
 View Orders: View all customer orders.
 Update Delivery Status: Modify the delivery status of each order.
-Contributing
+
+## Contributing
 If you would like to contribute to this project, please follow these steps:
 
 Fork the repository.
@@ -149,10 +150,8 @@ Create a new branch (git checkout -b feature-branch).
 Make your changes and commit them (git commit -m 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+## Contact
 For any inquiries or feedback, feel free to reach out:
 
 Email: your-email@example.com
