@@ -3,20 +3,20 @@
 
 This project is a full-stack, responsive clothing e-commerce website developed using the MERN stack (MongoDB, Express.js, React, Node.js). The website features functionalities like user registration and login, product categorization for men, women, and kids, as well as a shopping cart for adding items. Users can sort items by price and make payments securely through Stripe. An admin panel is also provided for managing products, viewing orders, and updating delivery statuses.
 
-Table of Contents
+## Table of Contents
 
-Features
-Technologies Used
-Installation
-Usage
-Project Structure
-API Endpoints
-Admin Panel
-Contributing
-License
-Contact
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Project Structure](#project-structure)
+6. [API Endpoints](#api-endpoints)
+7. [Admin Panel](#admin-panel)
+8. [Contributing](#contributing)
+9. [License](#license)
+10. [Contact](#contact)
 
-Features
+## Features
 
 User Authentication: Login and register functionality using JWT.
 Product Categorization: Browse products by categories like men, women, and kids.
