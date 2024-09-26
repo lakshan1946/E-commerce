@@ -27,7 +27,7 @@ const CartItems = () => {
             <div key={index}>
               <div className="ci-format ci-format-main">
                 <img
-                  src={img_url + item.image}
+                  src={img_url + item.images[0]}
                   alt=""
                   className="ci-product-icon"
                 />

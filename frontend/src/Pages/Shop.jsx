@@ -11,7 +11,9 @@ const Shop = () => {
       <Hero />
       <Popular />
       <Offer />
-      <NewCollections />
+      <div id="new-collections">
+        <NewCollections />
+      </div>
       <NewsLetter />
     </div>
   );

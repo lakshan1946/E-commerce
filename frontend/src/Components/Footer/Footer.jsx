@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-logo">
         <img src={assets.logo} alt="" />
-        <p>SHOPPER</p>
+        <p>TrendNest</p>
       </div>
       <ul className="footer-menu">
         <li>Company</li>

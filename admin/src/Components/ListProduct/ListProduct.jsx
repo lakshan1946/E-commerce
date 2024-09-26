@@ -9,7 +9,7 @@ const ListProduct = ({ url }) => {
 
   const fetchList = async () => {
     const response = await axios.get(`${url}/api/product/list`);
-    console.log(response.data);
+    // console.log(response.data);
     if (response.data.success) {
       setList(response.data.data);
     } else {
@@ -45,11 +45,11 @@ const ListProduct = ({ url }) => {
         <hr className="hr-top" />
         {list.map((item, index) => {
           return (
-            <div className="lp-all-item">
-              <div key={index} className="lp-items lp-format-main">
+            <div key={index} className="lp-all-item">
+              <div className="lp-items lp-format-main">
                 <img
                   className="lp-one"
-                  src={`${url}/images/` + item.image}
+                  src={`${url}/images/` + item.images[0]}
                   alt=""
                 />
                 <p className="lp-two">{item.name}</p>

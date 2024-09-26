@@ -49,6 +49,8 @@ const ShopCategory = (props) => {
     }
   }, [list, search, showSearch]);
 
+  console.log(list);
+
   return (
     <div className="Shop-category">
       <img className="banner" src={props.banner} alt="" />
@@ -74,7 +76,7 @@ const ShopCategory = (props) => {
               <Item
                 key={index}
                 id={item._id}
-                image={item.image}
+                image={item.images[0]}
                 name={item.name}
                 new_price={item.new_price}
                 old_price={item.old_price}

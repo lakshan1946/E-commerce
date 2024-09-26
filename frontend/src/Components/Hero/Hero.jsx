@@ -23,6 +23,12 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, [images.length]);
 
+  const scrollToNewCollection = () => {
+    const newCollectionSection = document.getElementById("new-collections");
+    if (newCollectionSection) {
+      newCollectionSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="hero">
       <div className="slider">
@@ -37,7 +43,7 @@ const Hero = () => {
               the style curve!
             </p>
           </div>
-          <div className="hero-latest-btn">
+          <div onClick={scrollToNewCollection} className="hero-latest-btn">
             <div>Latest collection</div>
             <img src={assets.arrow} alt="" />
           </div>

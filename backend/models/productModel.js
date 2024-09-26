@@ -1,15 +1,15 @@
 import mongoose from "mongoose";
 
-//store products in database
+// Store products in the database
 const productSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  image: { type: String, required: true },
+  images: [{ type: String, required: true }], // Array of image paths/URLs
   category: { type: String, required: true },
   new_price: { type: Number, required: true },
   old_price: { type: Number, required: true },
 });
 
-//if model exists, use it, else create a new model
+// If the model exists, use it; else, create a new model
 const productModel =
   mongoose.models.product || mongoose.model("product", productSchema);
 

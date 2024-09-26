@@ -12,6 +12,7 @@ const Product = () => {
   const { productId } = useParams();
 
   const product = list.find((e) => e._id === productId);
+  console.log(product);
 
   if (!product) {
     // You can return a loading indicator or some placeholder here
