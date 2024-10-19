@@ -35,6 +35,13 @@ This project is a full-stack, responsive clothing e-commerce website developed u
 - **Payment Gateway:** Stripe
 - **Tools:** Git, GitHub, Visual Studio Code
 
+## Database and Architecture
+ ![image](https://github.com/user-attachments/assets/9429cdba-9e98-4d42-ae09-d665acd02ee5)
+ ![image](https://github.com/user-attachments/assets/659a186a-77fd-4140-950a-f5c5385b2f08)
+
+
+
+
 ## Installation
 
 ### Prerequisites
@@ -146,16 +153,16 @@ E-COMMERCE/
 ## Screenshots and Video
 
 ### Screenshots
-
+![image](https://github.com/user-attachments/assets/a5bd03e5-8711-4a17-a808-e1f5a97a57ee)
 ![Screenshot 2024-09-24 111434](https://github.com/user-attachments/assets/c8e0bd12-5074-4afc-9cbf-ad5a7e2c38ad)
 ![Screenshot 2024-09-24 111445](https://github.com/user-attachments/assets/66677f3c-10c4-443b-86fc-e0eb43888a82)
-![Screenshot 2024-09-24 111456](https://github.com/user-attachments/assets/920dc7b1-d8c3-42c5-b706-972891ec48e2)
 ![Screenshot 2024-09-24 111508](https://github.com/user-attachments/assets/b27f2c14-777c-46c0-a428-5c8a41599c3f)
 ![Screenshot 2024-09-24 121257](https://github.com/user-attachments/assets/4f1fb170-5d05-429f-a945-4c4b92643749)
 ![Screenshot 2024-09-24 111614](https://github.com/user-attachments/assets/23109467-25ca-4d69-b62e-b1c77dd1d93f)
+![image](https://github.com/user-attachments/assets/85c83949-0574-4ac6-a1cc-7a70646b0516)
 
 ![Screenshot 2024-09-24 120902](https://github.com/user-attachments/assets/80496294-3055-457d-b8e2-f2dc5c850580)
-![Screenshot 2024-09-24 120911](https://github.com/user-attachments/assets/20823c18-06c2-48ae-87f1-f1dc850c3ca4)
+![image](https://github.com/user-attachments/assets/2f39d913-1aa2-4178-9ed7-91f0d0579186)
 ![Screenshot 2024-09-24 120920](https://github.com/user-attachments/assets/ae169f69-a9df-4e33-9437-dd5effc34b37)
 
 ## Admin Panel
