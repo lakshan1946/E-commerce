@@ -162,7 +162,7 @@ E-COMMERCE/
 ![image](https://github.com/user-attachments/assets/85c83949-0574-4ac6-a1cc-7a70646b0516)
 
 ![Screenshot 2024-09-24 120902](https://github.com/user-attachments/assets/80496294-3055-457d-b8e2-f2dc5c850580)
-![Screenshot 2024-09-24 120911](https://github.com/user-attachments/assets/20823c18-06c2-48ae-87f1-f1dc850c3ca4)
+![image](https://github.com/user-attachments/assets/2f39d913-1aa2-4178-9ed7-91f0d0579186)
 ![Screenshot 2024-09-24 120920](https://github.com/user-attachments/assets/ae169f69-a9df-4e33-9437-dd5effc34b37)
 
 ## Admin Panel
