@@ -153,7 +153,7 @@ E-COMMERCE/
 ## Screenshots and Video
 
 ### Screenshots
-
+![image](https://github.com/user-attachments/assets/a5bd03e5-8711-4a17-a808-e1f5a97a57ee)
 ![Screenshot 2024-09-24 111434](https://github.com/user-attachments/assets/c8e0bd12-5074-4afc-9cbf-ad5a7e2c38ad)
 ![Screenshot 2024-09-24 111445](https://github.com/user-attachments/assets/66677f3c-10c4-443b-86fc-e0eb43888a82)
 ![Screenshot 2024-09-24 111456](https://github.com/user-attachments/assets/920dc7b1-d8c3-42c5-b706-972891ec48e2)
