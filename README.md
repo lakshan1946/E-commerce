@@ -35,9 +35,10 @@ This project is a full-stack, responsive clothing e-commerce website developed u
 - **Payment Gateway:** Stripe
 - **Tools:** Git, GitHub, Visual Studio Code
 
-## Database and Architecture
+## Database and Functinality
  ![image](https://github.com/user-attachments/assets/9429cdba-9e98-4d42-ae09-d665acd02ee5)
- ![image](https://github.com/user-attachments/assets/659a186a-77fd-4140-950a-f5c5385b2f08)
+ ![image](https://github.com/user-attachments/assets/c36268bb-5fdb-4443-9732-047c51383e58)
+
 
 
 
