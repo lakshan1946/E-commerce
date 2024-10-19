@@ -77,7 +77,7 @@ const LoginSignup = () => {
           </div>
           <div className="pw-reset">
             <div className="remember-me">
-              <input type="checkbox" />
+              <input type="checkbox" required />
               <p>Remember me</p>
             </div>
             <p>Forgot your password?</p>
@@ -85,11 +85,6 @@ const LoginSignup = () => {
           <button type="submit">
             {login === "login" ? "Login" : "Sign up"}
           </button>
-          <p className="login-with">Or,Login with</p>
-          <div>
-            <img src="" alt="" />
-            <button>Sign up with google</button>
-          </div>
           {login === "login" ? (
             <p>
               Don't have an account?{" "}

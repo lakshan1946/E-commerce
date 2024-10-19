@@ -10,20 +10,21 @@ const OrderList = ({ url }) => {
   const fetchOrders = async () => {
     const response = await axios.get(url + "/api/order/listOrders");
     if (response.data.success) {
-      setData(response.data.orders);
+      // Sort orders by createdAt in descending order (newest first)
+      const sortedOrders = response.data.orders.sort(
+        (a, b) => new Date(b.date) - new Date(a.date)
+      );
+      setData(sortedOrders);
     } else {
       console.log(response.data.message);
     }
   };
 
   const statusHandler = async (event, orderId) => {
-    console.log("event ", event.target.value);
-    console.log("orderId ", orderId);
     const response = await axios.post(url + "/api/order/status", {
       orderId,
       status: event.target.value,
     });
-    console.log(response.data);
     if (response.data.success) {
       await fetchOrders();
     }

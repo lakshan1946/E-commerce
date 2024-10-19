@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Pencil2Icon } from "@radix-ui/react-icons";
 
 import "./ListProduct.css";
 import { toast } from "react-toastify";
@@ -39,6 +40,7 @@ const ListProduct = ({ url }) => {
         <p className="lp-three">Old Price</p>
         <p className="lp-four">New Price</p>
         <p className="lp-five">Category</p>
+        <p>Edit</p>
         <p className="">Remove</p>
       </div>
       <div className="lp-allproducts ">
@@ -56,6 +58,9 @@ const ListProduct = ({ url }) => {
                 <p className="lp-three">{item.old_price}</p>
                 <p className="lp-four">{item.new_price}</p>
                 <p className="lp-five">{item.category}</p>
+                <div className="lp-seven">
+                  <Pencil2Icon />
+                </div>
                 <div className="lp-box lp-six">
                   <p onClick={() => removeProduct(item._id)} className="remove">
                     x

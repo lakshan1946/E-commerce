@@ -1,6 +1,6 @@
 .productdisplay {
   display: flex;
-  margin: 50px 130px;
+  margin: 30px 130px;
   gap: 60px;
 }
 .pd-left {
